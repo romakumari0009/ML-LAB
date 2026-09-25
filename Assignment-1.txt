@@ -1,0 +1,19 @@
+import numpy as np
+
+# Internal marks of 10 students
+marks = np.array([72, 85, 91, 68, 77, 95, 64, 88, 79, 90])
+
+# Calculations
+mean = np.mean(marks)
+median = np.median(marks)
+std = np.std(marks)
+maximum = np.max(marks)
+minimum = np.min(marks)
+
+# Display results
+print("Internal Marks:", marks)
+print("Mean:", mean)
+print("Median:", median)
+print("Standard Deviation:", std)
+print("Maximum:", maximum)
+print("Minimum:", minimum)
